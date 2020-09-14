@@ -1,0 +1,1 @@
+ffmpeg -i video.mp4 -i logo.png -filter_complex "overlay=10:10" output.mp4
